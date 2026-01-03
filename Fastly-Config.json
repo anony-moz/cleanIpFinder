@@ -1,0 +1,23 @@
+{
+    "inbounds": [
+        {
+            "listen": "127.0.0.1",
+            "port": "PORTPORT",
+            "protocol": "socks",
+            "settings": {
+                "auth": "noauth",
+                "ip": "127.0.0.1",
+                "udp": false
+            },
+            "sniffing": {
+                "destOverride": [
+                    "http",
+                    "tls"
+                ],
+                "enabled": true
+            },
+            "tag": "socks-inbound"
+        }
+    ],
+    "outbounds": []
+}
